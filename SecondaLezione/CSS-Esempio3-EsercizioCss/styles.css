@@ -1,0 +1,75 @@
+/*Step1*/
+body
+{
+	background-color: rgb(245, 153, 237);
+}
+.main-container
+{   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container
+{
+    background-color: rgb(94, 41, 119);
+    /*clear: both;*/
+    position: relative;
+}
+
+
+.button-container
+{
+	border: 5px solid #470070;
+	background-color: rgb(159, 138, 255);
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	top: 0px;
+	float: none;
+}
+
+
+.image-css
+{
+    border-radius: 50px;
+	width: 200px;
+	height: 180px;
+}
+
+.button-css
+{
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	padding: 15px 32px;
+	margin: 14px 12px;
+	border-radius: 5px;
+	background-color: rgb(245, 202, 245);
+}
+
+/*Fine step1*/
+
+
+
+/*Inizio, da aggiungere per step2*/
+
+#slider-image-1:target ~ .image-container
+{
+   background-color: #78d1c5;
+}
+
+#slider-image-2:target ~ .image-container
+{
+   background-color: pink;
+}
+
+#slider-image-3:target ~ .image-container
+{
+   background-color: rgb(109, 138, 219);
+}
+
+
+/*Fine step2*/
